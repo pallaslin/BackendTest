@@ -14,8 +14,7 @@ namespace WebApplication1.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        //private readonly string connection = "Server=(localdb)\\mssqllocaldb;Database=BackendExamHub;Trusted_Connection=True;MultipleActiveResultSets=true;";
-        private readonly string connection = "Server=localhost;Database=BackendExamHub;Persist Security Info=True;MultipleActiveResultSets=true;TrustServerCertificate=true;User ID=sa;Password=GoodLife_2025;Encrypt=false";
+        private readonly string connection = "Server=(localdb)\\mssqllocaldb;Database=BackendExamHub;Trusted_Connection=True;MultipleActiveResultSets=true;";
         public UserController() 
         {
         }
